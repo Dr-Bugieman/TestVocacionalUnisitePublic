@@ -1,0 +1,27 @@
+[
+  {
+    "IDArea": 1,
+    "NomArea": "ARTE Y CREATIVIDAD",
+    "AreasRelacionadas": "Diseño Gráfico, Diseño y Decoración de Interiores, Diseño de Jardines, Diseño de Modas, Diseño de Joyas, Artes Plásticas (Pintura, Escultura, Danza, Teatro, Artesanía, Cerámica), Dibujo Publicitario, Restauración y Museología, Modelaje, Fotografía, Fotografía Digital, Gestión Gráfica y Publicitaria, Locución y Publicidad, Actuación, Camarografía, Arte Industrial, Producción Audiovisual y Multimedia, Comunicación y Producción en Radio y Televisión, Diseño del Paisaje, Cine y Video, Comunicación Escénica para televisión."
+  },
+  {
+    "IDArea": 2,
+    "NomArea": "CIENCIAS SOCIALES",
+    "AreasRelacionadas": "Psicología en general, Trabajo Social, Idiomas, Educación Internacional, Historia y Geografía, Periodismo, Periodismo Digital, Derecho, Ciencias Políticas, Sociología, Antropología, Arqueología, Gestión Social y Desarrollo, Consejería Familiar, Comunicación y Publicidad, Administración Educativa, Educación Especial, Psicopedagogía, Estimulación Temprana, Traducción Simultánea, Lingüística, Educación de Párvulos, Bibliotecología, Museología, Relaciones Internacionales y Diplomacia, Comunicación Social con mención en Marketing y Gestión de Empresas, Redacción Creativa y Publicitaria, Relaciones Públicas y Comunicación Organizacional; Hotelería y Turismo; Teología, Institución Sacerdotal."
+  },
+  {
+    "IDArea": 3,
+    "NomArea": "ECONÓMICA, ADMINISTRATIVA Y FINANCIERA",
+    "AreasRelacionadas": "Psicología en general, Trabajo Social, Idiomas, Educación Internacional, Historia y Geografía, Periodismo, Periodismo Digital, Derecho, Ciencias Políticas, Sociología, Antropología, Arqueología, Gestión Social y Desarrollo, Consejería Familiar, Comunicación y Publicidad, Administración Educativa, Educación Especial, Psicopedagogía, Estimulación Temprana, Traducción Simultánea, Lingüística, Educación de Párvulos, Bibliotecología, Museología, Relaciones Internacionales y Diplomacia, Comunicación Social con mención en Marketing y Gestión de Empresas, Redacción Creativa y Publicitaria, Relaciones Públicas y Comunicación Organizacional; Hotelería y Turismo; Teología, Institución Sacerdotal."
+  },
+  {
+    "IDArea": 4,
+    "NomArea": "CIENCIA Y TECNOLOGÍA",
+    "AreasRelacionadas": "Ingeniería en Sistemas Computacionales, Geología, Ingeniería Civil, Arquitectura, Electrónica, Telemática, Telecomunicaciones, Ingeniería Mecatrónica (Robótica), Imagen y Sonido, Minas, Petróleo y Metalurgia, Ingeniería Mecánica, Ingeniería Industrial, Física, Matemáticas Aplicadas, Ingeniería en Estadística, Ingeniería Automotriz, Biotecnología Ambiental, Ingeniería Geográfica, Carreras Militares (Marina, Aviación, Ejército), Ingeniería en Costas y Obras Portuarias, Estadística Informática, Programación y Desarrollo de Sistemas, Tecnología en Informática Educativa, Astronomía, Ingeniería en Ciencias Geográficas y Desarrollo Sustentable."
+  },
+  {
+    "IDArea": 5,
+    "NomArea": "CIENCIAS ECOLÓGICAS, BIOLÓGICAS Y DE LA SALUD",
+    "AreasRelacionadas": "Biología, Bioquímica, Farmacia, Biología Marina, Bioanálisis, Biotecnología, Ciencias Ambientales, Zootecnia, Veterinaria, Nutrición y Estética, Cosmetología, Dietética y Estética, Medicina, Obstetricia, Urgencias Médicas, Odontología, Enfermería, Tecnología, Oceanografía y Ciencias Ambientales, Médica, Agronomía, Horticultura y Fruticultura, Ingeniería de Alimentos, Gastronomía, Chef, Cultura Física, Deportes y Rehabilitación, Gestión Ambiental, Ingeniería Ambiental, Optometría, Homeopatía, Reflexología."
+  }
+]
