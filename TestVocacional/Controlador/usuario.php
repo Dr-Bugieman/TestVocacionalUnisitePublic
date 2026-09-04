@@ -8,7 +8,7 @@ if (
 }
     
 session_start();
-require_once '../Modelo/Respuestas.php';
+require_once '../modelo/respuestas.php';
 $Usuario = new Users(null);
 
 header('Content-Type: application/json; charset=utf-8');

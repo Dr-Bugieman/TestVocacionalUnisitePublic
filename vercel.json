@@ -1,11 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "TestVocacional/**/*.php", "use": "@vercel/php" }
+    { "src": "index.php", "use": "@vercel/php" }
   ],
   "routes": [
-    { "src": "^/assets/(.*)$", "dest": "/TestVocacional/assets/$1" },
-    { "src": "^/(.*\\.php)$", "dest": "/TestVocacional/$1" },
-    { "src": "^/$", "dest": "/TestVocacional/index.php" }
+    { "src": "^/(.*)$", "dest": "TestVocacional/index.php" }
   ]
 }

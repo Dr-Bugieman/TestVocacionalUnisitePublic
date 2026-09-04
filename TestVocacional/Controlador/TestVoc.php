@@ -8,7 +8,7 @@ if (
 }
 
 session_start();
-require_once '../Modelo/Respuestas.php';
+require_once '../modelo/respuestas.php';
 header('Content-Type: text/html; charset=utf-8');
 $db = null;
 $ResultadosConstruct = new resultados($db);

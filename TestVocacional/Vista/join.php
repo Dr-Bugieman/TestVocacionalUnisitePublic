@@ -63,7 +63,7 @@
 // Cargar el formulario de registro al inicio mediante fetch
 // y manejar el evento de envío del formulario
 function cargarFrom(){
-  fetch('../Controlador/registro.php', {
+fetch('../controlador/registro.php', {
   headers: {
     'X-Requested-With': 'XMLHttpRequest'
   }
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Función para enviar los datos del usuario al servidor
 function enviarDatosUsuario(formData) {
     console.log('Enviando datos del formulario...');
-    fetch('../Controlador/registro.php', {
+    fetch('../controlador/registro.php', {
     method: 'POST',
     headers: { 'X-Requested-With': 'XMLHttpRequest' },
     body: formData
