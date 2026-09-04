@@ -1,33 +1,24 @@
 {
   "version": 2,
   "functions": {
-    "api/*.php": { "runtime": "vercel-php@0.5.2" }
+    "TestVocacional/*.php": { "runtime": "vercel-php@0.5.2" }
   },
   "routes": [
     {
-      "src": "^/api/tutorial.php$",
-      "headers": { "Location": "/tutorial" },
-      "status": 307
+      "src": "^/assets/(.*)$",
+      "dest": "/TestVocacional/assets/$1"
     },
     {
-      "src": "^/tutorial$",
-      "dest": "/api/tutorial.php"
-    },
-    {
-      "src": "^/api/(.*)$",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "^/(.*\\.(?:png|jpg|jpeg|gif|svg|css|js|ico|woff2|woff|ttf|eot))$",
-      "dest": "/public/$1"
+      "src": "^/(.*\\.php)$",
+      "dest": "/TestVocacional/$1"
     },
     {
       "src": "^/$",
-      "dest": "/api/index.php"
+      "dest": "/TestVocacional/index.php"
     },
     {
       "src": "^/(.*)$",
-      "dest": "/api/index.php"
+      "dest": "/TestVocacional/index.php"
     }
   ]
 }
