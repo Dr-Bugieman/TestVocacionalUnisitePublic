@@ -5,21 +5,29 @@
   },
   "routes": [
     {
-      "src": "/api/tutorial.php",
+      "src": "^/api/tutorial.php$",
       "headers": { "Location": "/tutorial" },
       "status": 307
     },
     {
-      "src": "/",
-      "dest": "/api/index.php"
-    },
-    {
-      "src": "/tutorial",
+      "src": "^/tutorial$",
       "dest": "/api/tutorial.php"
     },
     {
-      "src": "/public/(.*)",
-      "dest": "/$1"
+      "src": "^/api/(.*)$",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "^/(.*\\.(?:png|jpg|jpeg|gif|svg|css|js|ico|woff2|woff|ttf|eot))$",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "^/$",
+      "dest": "/api/index.php"
+    },
+    {
+      "src": "^/(.*)$",
+      "dest": "/api/index.php"
     }
   ]
 }
