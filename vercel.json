@@ -1,9 +1,24 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "index.php", "use": "@vercel/php" }
-  ],
+  "functions": {
+    "TestVocacional/*.php": { "runtime": "vercel-php@0.5.2" }
+  },
   "routes": [
-    { "src": "^/(.*)$", "dest": "TestVocacional/index.php" }
+    {
+      "src": "^/assets/(.*)$",
+      "dest": "/TestVocacional/assets/$1"
+    },
+    {
+      "src": "^/(.*\\.php)$",
+      "dest": "/TestVocacional/$1"
+    },
+    {
+      "src": "^/$",
+      "dest": "/TestVocacional/index.php"
+    },
+    {
+      "src": "^/(.*)$",
+      "dest": "/TestVocacional/index.php"
+    }
   ]
 }
