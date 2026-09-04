@@ -152,7 +152,7 @@ function moveToast(toast, e) {
 
   // Función para cargar los resultados desde el servidor
   function cargarResultados() {
-    fetch(`../controlador/resultados.php`, {
+    fetch(`../Controlador/Resultados.php`, {
       headers: {
         'X-Requested-With': 'XMLHttpRequest'
       }

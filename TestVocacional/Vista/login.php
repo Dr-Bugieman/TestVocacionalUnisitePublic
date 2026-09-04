@@ -117,7 +117,7 @@ document.getElementById('btnContinuar').addEventListener('mouseleave', function(
 
 // Función para iniciar sesión mediante fetch
 function IniciarSesion(formData) {
-    fetch('../controlador/usuario.php', {
+    fetch('../Controlador/usuario.php', {
         method: 'POST',
         headers: {
             'X-Requested-With': 'XMLHttpRequest'
@@ -129,7 +129,7 @@ function IniciarSesion(formData) {
     .then(data => {
         // Verificar si la respuesta es exitosa
           if (data.success) {
-            window.location.href = '../vista/testvocacional.php'; // Redirigir al test vocacional
+            window.location.href = '../Vista/TestVocacional.php'; // Redirigir al test vocacional
             } else {
             document.getElementById('loginAlert').innerHTML = `<div class="alert alert-danger">Usuario o contraseña incorrectos</div>`;
             //console.error('Error al enviar los datos:', error);

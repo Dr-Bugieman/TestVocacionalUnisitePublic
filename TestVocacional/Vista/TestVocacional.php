@@ -199,7 +199,7 @@ function setHoverEffect(mainId, otherId) {
   // Función para cargar la pregunta desde el servidor
   // Esta función se llama al cargar la página y cada vez que se cambia la pregunta
   function cargarPregunta(id) {
-    fetch(`../controlador/testvoc.php?id=${id}`, { 
+    fetch(`../Controlador/TestVoc.php?id=${id}`, {
       headers: {
         'X-Requested-With': 'XMLHttpRequest'}
     })
@@ -240,7 +240,7 @@ function setHoverEffect(mainId, otherId) {
 
 // Función enviar resultado de la respuesta al servidor
 function obtenerSeleccionbtn(id, respuesta) {
-    fetch("../controlador/testvoc.php", {
+            fetch("../Controlador/TestVoc.php", {
         method: "POST",
         headers: {"Content-Type": "application/x-www-form-urlencoded",
                   'X-Requested-With': 'XMLHttpRequest'
@@ -306,7 +306,7 @@ document.addEventListener("click", (e) => {
     if (e.target && e.target.id === "Terminar") {
         //console.log("Botón Terminar detectado y clickeado");
         // Enviar la solicitud para finalizar el test al servidor
-        fetch("../controlador/testvoc.php", {
+        fetch("../Controlador/TestVoc.php", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded",
                       'X-Requested-With': 'XMLHttpRequest'
@@ -317,7 +317,7 @@ document.addEventListener("click", (e) => {
         .then(data => {
             //console.log("Servidor respondió:", data);
             //alert("Gracias por completar el test. Se guardaron tus resultados.");
-            window.location.href = "../vista/resultados.php";
+            window.location.href = "../Vista/Resultados.php";
         })
         .catch(err => console.error("Error en fetch:", err));
     }

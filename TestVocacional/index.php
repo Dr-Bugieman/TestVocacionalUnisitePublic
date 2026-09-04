@@ -55,7 +55,7 @@ session_start();
                     <h1 class="display-1" style="font-size: 8rem; font-family:'Orbitron', sans-serif; color:white;">Test Vocacional</h1>
                 </div>
                 <div class=" p-4">
-                    <div class="col-4 p-1 rounded-5 btn" style="background-color: #0191e7" onclick="location.href='vista/login.php'" >
+                    <div class="col-4 p-1 rounded-5 btn" style="background-color: #0191e7" onclick="location.href='Vista/login.php'" >
                         <div id="btnContinuar" class="fw-bold btn-sm d-flex justify-content-center align-items-center rounded-5 p-1" style="Color:white;   transition: padding 0.3s cubic-bezier(.4,2,.6,1);">
                             <p id="txtbtn" class="h3 m-0" style="transition: font-size 0.3s cubic-bezier(.4,2,.6,1);">Continuar 
                                 <i style="color:white" class="bi bi-arrow-right-circle">

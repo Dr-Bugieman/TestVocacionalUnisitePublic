@@ -9,7 +9,7 @@ if (
 
 ob_start();
 session_start();
-require_once '../modelo/respuestas.php';
+require_once '../Modelo/Respuestas.php';
 
 $Usuario = new Users(null);
 $Cliente = new Prospectos(null);
